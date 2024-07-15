@@ -1,0 +1,77 @@
+.conta{
+    text-shadow: 0px 0px 40px #FD6F00;
+}
+
+.contactFormDiv{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactForm{
+    width: 400px;
+    height: 400px;
+}
+.FormTable{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+form Table tr input[type="text"]{
+        padding: 10px 50px;
+        background-color: #060a1bcc ;
+        caret-color: #FD6F00;
+        border-radius: 10px;
+}
+form Table tr input[type="text"]:valid{
+    background-color: #060a1bcc ;
+}
+
+
+form Table tr input[type="tel"]{
+    padding: 10px 50px;
+    background-color: #060a1bcc;
+    caret-color: #FD6F00;
+    border-radius: 10px;
+}
+
+form Table tr input[type="text"]:focus{
+    outline-color: #FD6F00;
+
+}
+
+form Table tr input[type="email"]{
+    caret-color: #FD6F00;
+    padding: 10px 50px;
+    background-color: #060a1bcc;
+    border-radius: 10px;    
+}
+form Table tr input[type="email"]:focus{
+    outline-color: #FD6F00;
+}
+form Table tr textarea{
+    border-radius: 10px;
+    padding: 10px 50px;
+    caret-color: #FD6F00;
+    background-color: #060a1bcc;
+}
+form Table tr textarea:focus{
+    outline-color: #FD6F00;
+}
+form Table tr td{
+    padding-top: 30px;
+}
+
+.FormButton{
+    background-color: #FD6F00;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.FormButton:hover{
+    box-shadow: 0px 0px 20px #FD6F00;
+    font-size: large;
+}

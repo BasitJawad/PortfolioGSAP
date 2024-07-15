@@ -1,0 +1,23 @@
+.proj{
+    text-shadow: 0px 0px 40px #FD6F00;
+}
+.Project{
+    position: relative;
+}
+
+
+.projectSkills .SkillImages > *{
+    width: 40px;
+    height: 40px;
+    mix-blend-mode: color-burn;
+     /* aspect-ratio: 4/2; */
+}
+.projectSkills .SkillImages > *:hover{
+
+    scale: 1.2;
+
+}
+.projCards{
+    background-color: #FD6F00;
+    aspect-ratio: 3/2; 
+}

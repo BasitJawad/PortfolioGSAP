@@ -1,0 +1,90 @@
+.ThreeD{
+    perspective: 800px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    /* position: absolute; */
+    transform-style: preserve-3d;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    flex-direction: column;
+    max-width: 400px;
+    width: 300px !important;
+    transition: 200ms ease-in-out;
+    aspect-ratio: 3/2;
+    
+}
+.container > *{
+    height: 80px;
+}
+.cards{
+    max-width: 500px;
+    width: 300px;
+    height: 300px;
+}
+.headline h1{
+    text-shadow: 0px 0px 50px #FD6F00;
+}
+
+/* .container:hover{   
+    transform: rotateY(2deg);
+    left:0;
+    scale: 0.9;
+    border: 1px solid white;
+    box-shadow: 0px 0px 60px #FD6F00;
+    transition: 300ms ease-in;
+} */
+.services .cards:not(:hover){
+    filter: blur(10px);
+}
+
+/* .services{ */
+    /* filter: blur(10px); */
+/* } */
+
+
+.services .cards:hover{
+    left:0;
+    /* scale: 0.9; */
+    /* border: 0.4px solid gray; */
+    border-radius: 15px ;
+    box-shadow: 0px 0px 30px #FD6F00;
+    transition: 200ms ease-in;
+    /* animation: disco 3s ease-in infinite; */
+    /* filter: blur(10px); */
+}
+@media screen and (min-width: 576px) {
+        .services{
+            height: 200px;
+            overflow-y: scroll;
+            scrollbar-width: none;
+            
+        }
+      
+      
+      
+}
+ /* .cards:hover ~ .cards{ */
+    /* filter: blur(10px); */
+    /* transition: 500ms ease-in; */
+/* } */
+
+
+.AboutBody{
+    background: url("../assets/Vector.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.description{
+ display: flex;    
+ padding-top: 1rem;
+}
+
+.description>p{
+ padding: 10px;   
+}

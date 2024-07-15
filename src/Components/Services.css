@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.AboutBody {
+    /* padding: 80px 0px 60px 90px; */
+    align-items: center;
+    overflow: hidden;    
+}
+
+
+/* .services > .cards{
+    animation: moveleft 10s ease-out infinite alternate-reverse ;
+    animation-delay: 2s;
+}
+
+@keyframes moveleft {
+
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-200%);
+
+    }
+} */

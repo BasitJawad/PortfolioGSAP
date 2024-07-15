@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Anurati';
+    src: url('fonts/Anurati-Regular.ttf') format('truetype');
+  }
+
+.Explanation{
+    line-height: 1.8;
+}
+.MyPicture .Basit{
+    /* aspect-ratio: 3/3; */
+}
+@media screen and (min-width: 576px){
+    .MyPicture .Basit{
+        /* aspect-ratio: 2/3; */
+ 
+    }
+    .Basit{
+        /* max-width: 100%; */
+    }
+    
+}
+.MyPicture img:hover{
+    box-shadow: 0px 0px 40px #FD6F00;
+    transition: 500ms ease-in;
+}
+
+.AboutMe{
+    background: url("../assets/Vector.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "Roboto";
+    
+}
+
+.MyAbout{
+    background: url("../assets/Vector.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.MyAbout p{
+    text-align: left;
+}
