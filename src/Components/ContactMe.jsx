@@ -41,7 +41,6 @@ const ContactMe = () => {
     const tl5 = gsap.timeline({
       scrollTrigger: {
         trigger: ".contactme",
-        markers: true,
         start: "top 10%",
         end: " bottom center",
         scrub: 3,
