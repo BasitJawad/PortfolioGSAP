@@ -17,7 +17,7 @@ const Footer = () => {
 
     <div className='footer flex justify-center flex-col  text-center bg-[#3e3d3d]'>
         <div className="logo">
-        <h1 className='mt-3 font-bold drop-shadow text-3xl bg-gradient-to-r from-[#FA6E00] to-[#E60026] text-transparent bg-clip-text'>LOGO</h1>
+        <h1 className='mt-3 font-bold drop-shadow text-3xl bg-gradient-to-r from-[#FA6E00] to-[#E60026] text-transparent bg-clip-text'>BJ</h1>
         </div>
         <div className="nav">
             <ul className='flex justify-center gap-8 mt-5 xl:flex-row md:flex-row sm:flex-col text-white'>
