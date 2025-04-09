@@ -5,7 +5,7 @@ import github from "../assets/github.svg";
 import link from "../assets/link.svg";
 import insta from "../assets/insta.svg";
 import Basit from "../assets/Basit1.jpg";
-import CV from "../assets/CV-2.pdf";
+import CV from "../assets/Basit Jawad (Software Developer).pdf";
 
 import gsap from "gsap";
 import { useGSAP } from '@gsap/react';
