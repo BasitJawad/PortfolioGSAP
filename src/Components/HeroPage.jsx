@@ -129,7 +129,7 @@ const HeroPage = () => {
        
         <div className="right flex justify-center items-center  ">
           <div className="backCircle w-[1/2vw] h-[1/2vh]">
-            <img className='MyPic ' src={Basit} alt="MyPhoto" />
+           <img className='MyPic w-60 h-60 sm:w-40 sm:h-40 rounded-full object-cover' src={Basit} alt="MyPhoto" />
           </div>
         </div>
    </div>
