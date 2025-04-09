@@ -4,7 +4,7 @@ import dev from "../assets/dev.svg";
 import github from "../assets/github.svg";
 import link from "../assets/link.svg";
 import insta from "../assets/insta.svg";
-import Basit from "../assets/Basit1.jpg";
+import Basit from "../assets/WhatsApp Image 2025-02-25 at 11.14.44 AM.jpeg";
 import CV from "../assets/Basit Jawad (Software Developer).pdf";
 
 import gsap from "gsap";
