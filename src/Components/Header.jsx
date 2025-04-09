@@ -78,8 +78,10 @@ const Header = () => {
               </div>
 
               <div className="button flex lg:justify-end md:justify-end sm:justify-center sm:mt-3 lg:mt-0 md:mt-0">
+                 <a href="mailto:muhbasit235@gmail.com">
                 <button className='border lg:w-32 md:w-32 sm:w-24 sm:h-10 rounded-lg bg-gradient-to-br from-[#FA6F00] to-[#c15d10] text-white font-bold'>Hire Me</button>
-              </div>
+                 </a>
+                 </div>
             </>
           )}
 
